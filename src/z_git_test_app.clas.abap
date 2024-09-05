@@ -1,20 +1,13 @@
-CLASS Z_GIT_TEST_APP DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class Z_GIT_TEST_APP definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES if_oo_adt_classrun .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
 CLASS Z_GIT_TEST_APP IMPLEMENTATION.
-
-  METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World from D82' ).
-  ENDMETHOD.
 ENDCLASS.
