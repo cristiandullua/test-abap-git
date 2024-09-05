@@ -1,20 +1,13 @@
-CLASS Z_CDU_GIT_HELLO_WORLD DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class Z_CDU_GIT_HELLO_WORLD definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES if_oo_adt_classrun .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
 CLASS Z_CDU_GIT_HELLO_WORLD IMPLEMENTATION.
-
-  METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World from TRL' ).
-  ENDMETHOD.
 ENDCLASS.
